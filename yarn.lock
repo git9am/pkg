@@ -2068,10 +2068,8 @@ pkg-dir@^2.0.0:
   dependencies:
     find-up "^2.1.0"
 
-pkg-fetch@3.2.6:
-  version "3.2.6"
-  resolved "https://registry.yarnpkg.com/pkg-fetch/-/pkg-fetch-3.2.6.tgz#8473e1da5763522c4c3c051917db7274b75836fa"
-  integrity sha512-Q8fx6SIT022g0cdSE4Axv/xpfHeltspo2gg1KsWRinLQZOTRRAtOOaEFghA1F3jJ8FVsh8hGrL/Pb6Ea5XHIFw==
+"pkg-fetch@file:../pkg-fetch":
+  version "3.3.0-pre"
   dependencies:
     chalk "^4.1.2"
     fs-extra "^9.1.0"
